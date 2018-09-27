@@ -1,0 +1,27 @@
+{
+  "name": "mysqljsonconnector",
+  "version": "1.0.0",
+  "description": "An API to access MySQL databases via web (read only)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgr/MySQLJsonConnector.git"
+  },
+  "keywords": [
+    "MySQL",
+    "JSON",
+    "Connector"
+  ],
+  "author": "rafa@myariadna.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelgr/MySQLJsonConnector/issues"
+  },
+  "homepage": "https://github.com/rafaelgr/MySQLJsonConnector#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
