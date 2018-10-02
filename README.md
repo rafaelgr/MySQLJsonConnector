@@ -6,7 +6,24 @@ Solution, build a REST API in NodeJS, install it in the server a access this way
 ## How to install  
 MySQLJsonCOnnector requires [Node.js](https://nodejs.org/) to run.
 - First clone this project into tour local machine
-- Go to your cloned folder and execute npm install
+- Go to your cloned folder and execute *npm install*
+## How to configure it
+You have two ways in order to configure the utility
+### The config.json file
+This file is located in the */config* directory 
+```
+{
+    "mysql": {
+        "host": "localhost",
+        "port": "3306",
+        "username": "root",
+        "password": "password"
+    },
+    "api": {
+        "port": "8089"
+    }
+}
+```
 
 
 
