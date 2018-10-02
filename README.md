@@ -43,7 +43,7 @@ All this features are available via env variables, with this equivalence:
 Simply run *npm start*
 
 ## How to use it
-Supouse you are runnig MYSQLJC in your localhost at port 8089.
+Supouse you are runnig MYSQLJC in your localhost at port 8089.  
 In a web browser type *http://localhost:8089/version* and you'll see the version of the utility, aditionally you check if it is running.    
 The general url has the form *http://localhost:8089/connector/db/table* that returns in JSON format the rows of the 'table' in the 'db'.   
 A quick exemple. Supouse you a have a MySQL database named 'rrhh' with a table 'employees' in it, and you want to retrive the employees data.  
