@@ -8,7 +8,7 @@ MySQLJsonCOnnector requires [Node.js](https://nodejs.org/) to run.
 - First clone this project into tour local machine
 - Go to your cloned folder and execute *npm install*
 ## How to configure it
-You have two ways in order to configure the utility
+You have two ways in order to configure the utility  
 **The config.json file** 
 This file is located in the */config* directory 
 ```
@@ -44,8 +44,8 @@ Simply run *npm start*
 
 ## How to use it
 Supouse you are runnig MYSQLJC in your localhost at port 8089.
-In a web browser type *http://localhost:8089/version* and you'll see the version of the utility, adiotionally you check if it is running.  
-The general url has the form *http://localhost:8089/connector/db/table* that returns in JSON format the rows of the 'table' in the 'db'. 
+In a web browser type *http://localhost:8089/version* and you'll see the version of the utility, adiotionally you check if it is running.    
+The general url has the form *http://localhost:8089/connector/db/table* that returns in JSON format the rows of the 'table' in the 'db'.   
 A quick exemple. Supouse you a have a MySQL database named 'rrhh' with a table 'employees' in it, and you want to retrive the employee data.  
 Your url will be *http://localhost:8089/connector/rrhh/employees* 
 
