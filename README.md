@@ -49,6 +49,7 @@ The general url has the form *http://localhost:8089/connector/db/table* that ret
 A quick exemple. Supouse you a have a MySQL database named 'rrhh' with a table 'employees' in it, and you want to retrive the employees data.  
 Your url will be *http://localhost:8089/connector/rrhh/employees* 
 
+Change Hotfix s0101
 
 
 
